@@ -13,7 +13,7 @@
 #import <malloc/malloc.h>
 #import <mach/mach.h>
 #import <objc/runtime.h>
-#import <NSObject+HeapInspector.h>
+#import "NSObject+HeapInspector.h"
 
 static CFMutableSetRef classesLoadedInRuntime = NULL;
 static NSSet *heapShotOfLivingObjects = nil;

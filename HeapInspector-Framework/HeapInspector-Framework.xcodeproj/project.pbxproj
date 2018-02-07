@@ -33,11 +33,11 @@
 		DAF6DE781E38B11500AC53B9 /* HINSPTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DE5E1E38B11500AC53B9 /* HINSPTableViewController.h */; };
 		DAF6DE791E38B11500AC53B9 /* HINSPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DE5F1E38B11500AC53B9 /* HINSPTableViewController.m */; };
 		DAF6DE7A1E38B11500AC53B9 /* NSObject+HeapInspector.h in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DE601E38B11500AC53B9 /* NSObject+HeapInspector.h */; };
-		DAF6DE7B1E38B11500AC53B9 /* NSObject+HeapInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DE611E38B11500AC53B9 /* NSObject+HeapInspector.m */; };
+		DAF6DE7B1E38B11500AC53B9 /* NSObject+HeapInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DE611E38B11500AC53B9 /* NSObject+HeapInspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DAF6DE3D1E38B10200AC53B9 /* HeapInspector-Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "HeapInspector-Framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF6DE3D1E38B10200AC53B9 /* HeapInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeapInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF6DE401E38B10200AC53B9 /* HeapInspector-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeapInspector-Framework.h"; sourceTree = "<group>"; };
 		DAF6DE411E38B10200AC53B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF6DE481E38B11500AC53B9 /* HINSPClassDumpTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HINSPClassDumpTableViewController.h; path = ../../src/HINSPClassDumpTableViewController.h; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		DAF6DE3E1E38B10200AC53B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAF6DE3D1E38B10200AC53B9 /* HeapInspector-Framework.framework */,
+				DAF6DE3D1E38B10200AC53B9 /* HeapInspector.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DAF6DE3C1E38B10200AC53B9 /* HeapInspector-Framework */ = {
+		DAF6DE3C1E38B10200AC53B9 /* HeapInspector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAF6DE451E38B10200AC53B9 /* Build configuration list for PBXNativeTarget "HeapInspector-Framework" */;
+			buildConfigurationList = DAF6DE451E38B10200AC53B9 /* Build configuration list for PBXNativeTarget "HeapInspector" */;
 			buildPhases = (
 				DAF6DE381E38B10200AC53B9 /* Sources */,
 				DAF6DE391E38B10200AC53B9 /* Frameworks */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = "HeapInspector-Framework";
+			name = HeapInspector;
 			productName = "HeapInspector-Framework";
-			productReference = DAF6DE3D1E38B10200AC53B9 /* HeapInspector-Framework.framework */;
+			productReference = DAF6DE3D1E38B10200AC53B9 /* HeapInspector.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAF6DE3C1E38B10200AC53B9 /* HeapInspector-Framework */,
+				DAF6DE3C1E38B10200AC53B9 /* HeapInspector */,
 			);
 		};
 /* End PBXProject section */
@@ -388,13 +388,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAF6DE451E38B10200AC53B9 /* Build configuration list for PBXNativeTarget "HeapInspector-Framework" */ = {
+		DAF6DE451E38B10200AC53B9 /* Build configuration list for PBXNativeTarget "HeapInspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAF6DE461E38B10200AC53B9 /* Debug */,
 				DAF6DE471E38B10200AC53B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

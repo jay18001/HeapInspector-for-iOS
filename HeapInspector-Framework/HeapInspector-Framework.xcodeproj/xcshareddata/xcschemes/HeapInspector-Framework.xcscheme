@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DAF6DE3C1E38B10200AC53B9"
-               BuildableName = "HeapInspector-Framework.framework"
-               BlueprintName = "HeapInspector-Framework"
+               BuildableName = "HeapInspector.framework"
+               BlueprintName = "HeapInspector"
                ReferencedContainer = "container:HeapInspector-Framework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -46,8 +48,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DAF6DE3C1E38B10200AC53B9"
-            BuildableName = "HeapInspector-Framework.framework"
-            BlueprintName = "HeapInspector-Framework"
+            BuildableName = "HeapInspector.framework"
+            BlueprintName = "HeapInspector"
             ReferencedContainer = "container:HeapInspector-Framework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DAF6DE3C1E38B10200AC53B9"
-            BuildableName = "HeapInspector-Framework.framework"
-            BlueprintName = "HeapInspector-Framework"
+            BuildableName = "HeapInspector.framework"
+            BlueprintName = "HeapInspector"
             ReferencedContainer = "container:HeapInspector-Framework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
